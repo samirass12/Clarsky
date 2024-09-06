@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    font-family: "Noto-Sans", sans-serif;
+}
+
+.header {
+  background-color: #163a24;
+  color: #fff;
+}
+
+.container {
+  max-width: 1220px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header__link{
+    color: #fff;
+}
+
+.header__buttons{
+    display: flex;
+    align-items: center ;
+    gap: 24px;
+}
+
+.btn{
+    background-color: #198c36;
+    padding: 15px 25px;
+    border-radius: 160px;
+}
+
+.first-section {
+  background: url("../assets/img/fon.png") center center / cover;
+  background-repeat: no-repeat;
+  height: 88vh;
+}
+.first-section__wrapper {
+  display: flex;
+  max-width: 50%;
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+.section__title {
+  color: white;
+  line-height: 10vh;
+  font-weight: 600;
+  margin-bottom: 5%;
+  font-size: 8vh;
+}
+
+.section__text-block {
+  font-weight: 300;
+  color: white;
+  font-size: 2vh;
+  max-width: 100%;
+}
